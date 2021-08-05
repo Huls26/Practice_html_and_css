@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+body {
+    font-size: 1.3125rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+    text-align: justify;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    line-height: 1em;
+    color: rgb(122, 33, 29);
+}
+
+section {
+    padding: 4rem 0;
+}
+
+.container {
+    margin-inline: auto;
+    width: min(85%, 90.5rem);
+}
+
+.bg-light {
+    background-color: #f3eed9;
+}
+
+.bg-dark {
+    background-color: #222c2a;
+    color: #fff;
+}
+
+.bg-primary {
+    background-color: #824936;
+    color: #fff;
+}
+
+.text-light {
+    color:  #f3eed9 ;
+}
+
+.container--narrow {
+    max-width: 30rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-light h1 {
+    line-height: 1.5em;
+}
+
+h2,h3,p {
+    margin-bottom: 1em;
+}
+
+.container--narrow p {
+    font-size: 1.1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
